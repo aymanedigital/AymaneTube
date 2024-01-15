@@ -33,7 +33,7 @@
 
 .video-title {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 19px;
     margin-bottom: 12px;
@@ -113,7 +113,7 @@ footer:hover{
 /* Media query for screens with a maximum width of 600 pixels */
 @media screen and (max-width: 600px) {
     .video-box {
-        margin-left: 28px; /* Remove left margin for smaller screens */
+        margin-left: 40px; /* Remove left margin for smaller screens */
     }
 
     .search-container {
@@ -131,7 +131,7 @@ footer:hover{
 
     footer {
         margin-top: 10px; /* Adjusted margin for smaller screens */
-        width: 320px;
+        width: 330px;
     }
 
     hr {
