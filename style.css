@@ -22,10 +22,10 @@
 
 .search-input {
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 300px;
+    width: 310px;
     outline: none;
 }
 
@@ -33,7 +33,7 @@
 
 .video-title {
     margin-top: 0;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 19px;
     margin-bottom: 12px;
@@ -41,13 +41,13 @@
 }
 
 .thumbnail-1 {
-    width: 350px;
+    width: 420px;
     display: block;
     border-radius: 10px;
 }
 
 .video-box {
-    width: 350px;
+    width: 420px;
     display: inline-block;
     vertical-align: top; /* to aligne at the top */
     margin-left: 40px;
@@ -57,7 +57,7 @@
 
 .channel-pic {
     display: inline-block;
-    width: 50px;
+    width: 70px;
     vertical-align: top;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .video-stats {
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(185, 185, 185);
 }
 
