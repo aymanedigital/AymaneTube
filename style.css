@@ -1,0 +1,140 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+ p {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ /*body bgcolor */
+
+ body {
+    background-color: #0f0f0f;
+ }
+
+
+/* styling the search bar */
+.search-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    outline: none;
+}
+
+/* search input style end */
+
+.video-title {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.thumbnail-1 {
+    width: 300px;
+    display: block;
+    border-radius: 10px;
+}
+
+.video-box {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top; /* to aligne at the top */
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: url(icon.svg), auto;
+}
+
+.channel-pic {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.vid-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.profile-pic {
+    width: 40px;
+    border-radius: 30px;
+}
+
+.thumbnail-row {
+    margin-bottom: 11px
+}
+
+.channel-name {
+    font-size: 14px;
+    color: rgb(190, 190, 190);
+    margin-bottom: 8px;
+}
+
+.video-stats {
+    font-size: 10px;
+    color: rgb(185, 185, 185);
+}
+
+/* footer */
+
+footer {
+    background-color: #282828;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    transition: 0.4s;
+    margin-top: 100px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer:hover{
+    background-color: white;
+    color: #0f0f0f;
+}
+
+/* footer end */
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media screen and (max-width: 600px) {
+    .video-box {
+        margin-left: 28px; /* Remove left margin for smaller screens */
+    }
+
+    .search-container {
+        margin-bottom: 10px; /* Adjusted margin for smaller screens */
+    }
+
+    .search-input {
+        padding: 10px;
+        font-size: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 150px;
+        outline: none;
+    }
+
+    footer {
+        margin-top: 10px; /* Adjusted margin for smaller screens */
+        width: 320px;
+    }
+
+    hr {
+        width: 280px;
+    }
+}
