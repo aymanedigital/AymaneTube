@@ -41,13 +41,13 @@
 }
 
 .thumbnail-1 {
-    width: 300px;
+    width: 350px;
     display: block;
     border-radius: 10px;
 }
 
 .video-box {
-    width: 300px;
+    width: 350px;
     display: inline-block;
     vertical-align: top; /* to aligne at the top */
     margin-left: 40px;
@@ -125,7 +125,7 @@ footer:hover{
         font-size: 10px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        width: 150px;
+        width: 200px;
         outline: none;
     }
 
