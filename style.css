@@ -22,10 +22,10 @@
 
 .search-input {
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 310px;
+    width: 300px;
     outline: none;
 }
 
@@ -33,7 +33,7 @@
 
 .video-title {
     margin-top: 0;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 19px;
     margin-bottom: 12px;
@@ -41,23 +41,23 @@
 }
 
 .thumbnail-1 {
-    width: 420px;
+    width: 350px;
     display: block;
     border-radius: 10px;
 }
 
 .video-box {
-    width: 420px;
+    width: 350px;
     display: inline-block;
     vertical-align: top; /* to aligne at the top */
-    margin-left: 40px;
+    margin-left: 65px;
     margin-top: 20px;
     cursor: url(icon.svg), auto;
 }
 
 .channel-pic {
     display: inline-block;
-    width: 70px;
+    width: 50px;
     vertical-align: top;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .video-stats {
-    font-size: 20px;
+    font-size: 10px;
     color: rgb(185, 185, 185);
 }
 
@@ -93,7 +93,7 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 1050px;
+    width: 97%;
     transition: 0.4s;
     margin-top: 100px;
 }
@@ -113,7 +113,22 @@ footer:hover{
 /* Media query for screens with a maximum width of 600 pixels */
 @media screen and (max-width: 600px) {
     .video-box {
-        margin-left: 40px; /* Remove left margin for smaller screens */
+        margin-left: 28px; /* Remove left margin for smaller screens */
+    }
+
+    .thumbnail-1 {
+        width: 300px;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .video-box {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top; /* to aligne at the top */
+        margin-left: 28px;
+        margin-top: 20px;
+        cursor: url(icon.svg), auto;
     }
 
     .search-container {
@@ -125,13 +140,13 @@ footer:hover{
         font-size: 10px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        width: 200px;
+        width: 150px;
         outline: none;
     }
 
     footer {
         margin-top: 10px; /* Adjusted margin for smaller screens */
-        width: 330px;
+        width: 320px;
     }
 
     hr {
