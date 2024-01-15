@@ -33,7 +33,7 @@
 
 .video-title {
     margin-top: 0;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 19px;
     margin-bottom: 12px;
@@ -76,13 +76,13 @@
 }
 
 .channel-name {
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(190, 190, 190);
     margin-bottom: 8px;
 }
 
 .video-stats {
-    font-size: 10px;
+    font-size: 14px;
     color: rgb(185, 185, 185);
 }
 
